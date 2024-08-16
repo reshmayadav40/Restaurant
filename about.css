@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: gray;
+    background-image: url("https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg");
+    background-size: cover;
+}
+header {
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+   background:pink;
+}
+ h2 {
+    background-color:rgb(103, 195, 219)
+ }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color:#fff;
+     
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+.about {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about h2 {
+    text-align: center;
+    color: #fff;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.about-content img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.about-content .text {
+    max-width: 800px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    background-color: rgb(14, 51, 61);
+}
+.text{
+    color:#fff;
+}
+.abc{
+    color:#fff;
+}
+.abc a{
+    color:#fff;
+}
+ ul {
+    display:flex;
+    justify-content:space-around;
+}

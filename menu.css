@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    padding: 20px;
+}
+
+nav {
+    background-color: pink;
+    display: grid;
+    place-items: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+nav ul li a:hover {
+    background-color: green;
+    color: rgb(80, 97, 223);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px 20px;
+    align-items: center;
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    background-color: #fff;
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #ccc;
+}
+
+.item h4 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.item button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.item button:hover {
+    background-color: darkgreen;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+ul {
+    display:flex;
+    justify-content:space-around;
+    margin:30px;
+}
